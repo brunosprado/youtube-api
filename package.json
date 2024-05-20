@@ -1,0 +1,27 @@
+{
+  "name": "youtube-ahgora",
+  "version": "1.0.0",
+  "description": "Projeto de teste para Ahgora",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.9.0",
+    "googleapis": "^137.1.0",
+    "http": "^0.0.1-security",
+    "jest": "^29.7.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^9.2.0",
+    "globals": "^15.2.0"
+  }
+}
